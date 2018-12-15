@@ -14,6 +14,9 @@
 		D77033E121C49557009E04F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77033E021C49557009E04F2 /* Assets.xcassets */; };
 		D77033E421C49557009E04F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77033E221C49557009E04F2 /* LaunchScreen.storyboard */; };
 		D77033E721C49557009E04F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D77033E621C49557009E04F2 /* main.m */; };
+		D77033F921C497EF009E04F2 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77033F821C497EF009E04F2 /* HomeController.m */; };
+		D77033FF21C498F0009E04F2 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D77033FE21C498F0009E04F2 /* HomeModel.m */; };
+		D770340221C49922009E04F2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D770340121C49922009E04F2 /* BaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,13 @@
 		D77033E321C49557009E04F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D77033E521C49557009E04F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77033E621C49557009E04F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D77033F721C497EF009E04F2 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		D77033F821C497EF009E04F2 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		D77033FD21C498F0009E04F2 /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		D77033FE21C498F0009E04F2 /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		D770340021C49922009E04F2 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		D770340121C49922009E04F2 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		D770340321C49C8B009E04F2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,9 @@
 		D77033F221C495B9009E04F2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D77033FC21C498C8009E04F2 /* Model */,
+				D77033FB21C498C7009E04F2 /* View */,
+				D77033FA21C498C6009E04F2 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -122,6 +135,8 @@
 		D77033F321C4964A009E04F2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				D770340021C49922009E04F2 /* BaseModel.h */,
+				D770340121C49922009E04F2 /* BaseModel.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -150,8 +165,34 @@
 				D77033E021C49557009E04F2 /* Assets.xcassets */,
 				D77033E221C49557009E04F2 /* LaunchScreen.storyboard */,
 				D77033E521C49557009E04F2 /* Info.plist */,
+				D770340321C49C8B009E04F2 /* PrefixHeader.pch */,
 			);
 			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		D77033FA21C498C6009E04F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D77033F721C497EF009E04F2 /* HomeController.h */,
+				D77033F821C497EF009E04F2 /* HomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D77033FB21C498C7009E04F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D77033FC21C498C8009E04F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D77033FD21C498F0009E04F2 /* HomeModel.h */,
+				D77033FE21C498F0009E04F2 /* HomeModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +267,10 @@
 			files = (
 				D77033D921C49556009E04F2 /* ViewController.m in Sources */,
 				D77033D621C49556009E04F2 /* AppDelegate.m in Sources */,
+				D77033FF21C498F0009E04F2 /* HomeModel.m in Sources */,
+				D770340221C49922009E04F2 /* BaseModel.m in Sources */,
 				D77033E721C49557009E04F2 /* main.m in Sources */,
+				D77033F921C497EF009E04F2 /* HomeController.m in Sources */,
 				D77033DF21C49556009E04F2 /* MailList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +414,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MailList/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MailList/SupportFile/PrefixHeader.pch;
+				INFOPLIST_FILE = MailList/SupportFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +432,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MailList/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MailList/SupportFile/PrefixHeader.pch;
+				INFOPLIST_FILE = MailList/SupportFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
