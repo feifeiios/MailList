@@ -60,18 +60,98 @@
 		D77033D321C49556009E04F2 /* MailList */ = {
 			isa = PBXGroup;
 			children = (
-				D77033D421C49556009E04F2 /* AppDelegate.h */,
-				D77033D521C49556009E04F2 /* AppDelegate.m */,
+				D77033F621C49663009E04F2 /* SupportFile */,
+				D77033ED21C495B6009E04F2 /* New Group */,
 				D77033D721C49556009E04F2 /* ViewController.h */,
 				D77033D821C49556009E04F2 /* ViewController.m */,
+				D77033E621C49557009E04F2 /* main.m */,
+			);
+			path = MailList;
+			sourceTree = "<group>";
+		};
+		D77033ED21C495B6009E04F2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D77033F521C49659009E04F2 /* Foundations */,
+				D77033EE21C495B7009E04F2 /* Classes */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D77033EE21C495B7009E04F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D77033F321C4964A009E04F2 /* Base */,
+				D77033F221C495B9009E04F2 /* Home */,
+				D77033F021C495B9009E04F2 /* Detail */,
+				D77033F121C495B9009E04F2 /* Edit */,
+				D77033EF21C495B8009E04F2 /* Add */,
+				D77033F421C49652009E04F2 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D77033EF21C495B8009E04F2 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		D77033F021C495B9009E04F2 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D77033F121C495B9009E04F2 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		D77033F221C495B9009E04F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D77033F321C4964A009E04F2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D77033F421C49652009E04F2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D77033F521C49659009E04F2 /* Foundations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundations;
+			sourceTree = "<group>";
+		};
+		D77033F621C49663009E04F2 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				D77033DD21C49556009E04F2 /* MailList.xcdatamodeld */,
+				D77033D421C49556009E04F2 /* AppDelegate.h */,
+				D77033D521C49556009E04F2 /* AppDelegate.m */,
 				D77033DA21C49556009E04F2 /* Main.storyboard */,
 				D77033E021C49557009E04F2 /* Assets.xcassets */,
 				D77033E221C49557009E04F2 /* LaunchScreen.storyboard */,
 				D77033E521C49557009E04F2 /* Info.plist */,
-				D77033E621C49557009E04F2 /* main.m */,
-				D77033DD21C49556009E04F2 /* MailList.xcdatamodeld */,
 			);
-			path = MailList;
+			path = SupportFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
